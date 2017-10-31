@@ -10827,6 +10827,7 @@ hr {
 }
 .page-section.third {
   padding: 24px 0;
+  padding-top: 20%;
 }
 .page-section + .page-section:not(.equal) {
   padding-top: 0;
@@ -35687,7 +35688,7 @@ html.app-mobile #content .container-fluid {
 .navbar-brand {
   position: relative;
   height: 50px;
-  line-height: 50px;
+  line-height: 40px;
   padding: 0 10px;
   font-size: 1.265rem;
   font-weight: 700;

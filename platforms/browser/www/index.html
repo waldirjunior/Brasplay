@@ -51,15 +51,17 @@
 
 <body data-ng-controller="principalCtrl">
     <div class="app">
-  
-
+    
       <div class="navbar navbar-default navbar-fixed-top navbar-size-large navbar-size-xlarge paper-shadow" data-z="0" data-animated role="navigation" data-ng-include="'app/includes/navbar.html'">
       </div>
 
       <div class="parallax overflow-hidden {{corDoTime(idDoTimeDoUsuario)}} page-section third" data-ng-include="'app/includes/faixa.html'">
       </div>
 
-      <div class="container">
+      <div class="container" id="deviceready" class="blink">
+
+        <p class="event listening">CONECTANDO</p>
+        <p class="event received">CONECTADO!</p>
 
         <div class="page-section">
           <div class="row">
@@ -104,11 +106,6 @@
         <div class="audio-next"></div>
       </div>
 
-
-        <div id="deviceready" class="blink">
-            <p class="event listening"></p>
-            <p class="event received"></p>
-        </div>
 
 
    </div>

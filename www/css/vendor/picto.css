@@ -296,7 +296,7 @@
 .icon-wrist-watch:before { content: "\f132"; }
 .icon-zip-hoodie:before { content: "\f133"; }
 
-/* Emotions */
+/* Emotions
 @font-face {
   font-family: "picto-foundry-emotions";
   src: url("../fonts/picto-foundry-emotions.eot");
@@ -306,7 +306,7 @@
        url("../fonts/picto-foundry-emotions.svg#picto-foundry-emotions") format("svg");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 [data-icon]:before {
   font-family: "picto-foundry-emotions";
@@ -1440,7 +1440,7 @@
 .icon-volume-off:before { content: "\f150"; }
 
 
-/* Nature */
+/* Nature 
 
 @font-face {
   font-family: "picto-foundry-nature";
@@ -1451,7 +1451,7 @@
        url("../fonts/picto-foundry-nature.svg#picto-foundry-nature") format("svg");
   font-weight: normal;
   font-style: normal;
-}
+}*/
 
 [data-icon]:before {
   font-family: "picto-foundry-nature";
@@ -1585,7 +1585,7 @@
 .icon-water:before { content: "\f134"; }
 .icon-worldwide:before { content: "\f135"; }
 
-/* Shopping - Finance */
+/* Shopping - Financ
 @font-face {
   font-family: "picto-foundry-shopping-finance";
   src: url("../fonts/picto-foundry-shopping-finance.eot");
@@ -1596,7 +1596,7 @@
   font-weight: normal;
   font-style: normal;
 }
-
+e */
 [data-icon]:before {
   font-family: "picto-foundry-shopping-finance";
   content: attr(data-icon);
